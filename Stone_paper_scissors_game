@@ -30,7 +30,6 @@ all = [rock ,paper ,scissors]
 user = int(input("pls give your number between 0 and 2\n"))
 index = random.randint(0,2)
 print(all[index])
-# Write your code below this line 👇
 # Rock wins against scissors.
 # Scissors win against paper.
 # Paper wins against rock.
